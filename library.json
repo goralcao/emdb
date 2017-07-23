@@ -9,7 +9,7 @@
   "keywords": "database, query",
   "repository": {
     "type": "git",
-    "url": "https://github.com/celcius-labs/emdb.git"
+    "url": "https://github.com/goralcao/emdb.git"
   },
   "dependencies": [
     {
@@ -22,6 +22,10 @@
     "test",
     "doc",
     "Doxyfile"
+  ],
+  "include": [
+    "include/*.h",
+    "include/stoarge/*.h"
   ],
   "frameworks": "*",
   "platforms": "*"
